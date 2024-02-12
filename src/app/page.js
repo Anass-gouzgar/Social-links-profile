@@ -7,7 +7,7 @@ export default function Home() {
       <section className=" bg-my_Dark_Grey min-w-[300px] h-[600px] rounded-xl flex flex-col items-center justify-center p-4 pb-0  pt-0">
         <Image
           src={avatar}
-          alt="Jessica's Avatar"
+          alt={"Jessica's Avatar"}
           width={100}
           height={100}
           className="rounded-full mb-6"

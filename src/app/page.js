@@ -15,8 +15,9 @@ export default function Home() {
         <h1 className="text-my_White text-3xl mb-3 ">Jessica Randall</h1>
         <h3 className="text-my_Green mb-6">London, United Kingdom</h3>
         <p className="text-my_White text-sm mb-5">
-          "Front-end developer and avid reader."
+          &ldquo;Front-end developer and avid reader.&rdquo;
         </p>
+
         <button className="text-my_White bg-my_Grey w-full mb-4 p-2 text-sm rounded-md font-bold cursor-pointer hover:bg-my_Green hover:text-my_Off_Black">
           GitHub
         </button>

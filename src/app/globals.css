@@ -6,28 +6,24 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --my_Green: "hsl(75, 94%, 57%)";
+  --my_White: "hsl(0, 0%, 100%)";
+  --my_Grey: "hsl(0, 0%, 20%)";
+  --my_Dark_Grey: "hsl(0, 0%, 12%)";
+  --my_Off_Black: "hsl(0, 0%, 8%)";
 }
+/* in case you want to use the customized styles here for the button */
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* .button {
+  color: var(--my_White);
+  background-color: var(--my_Grey);
+  font-size: 22px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+  &:hover {
+  } 
+
+}*/
